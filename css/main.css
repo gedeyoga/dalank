@@ -344,18 +344,6 @@ header .illustration img {
   margin-bottom: 30px;
 }
 
-.banner .banner-card .btn-orange {
-  background-color: #E9A823 !important;
-  font-family: 'assistant-bold';
-  color: white;
-}
-
-.banner .banner-card .btn-orange:hover {
-  background-color: #c99836 !important;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-}
-
 @media (max-width: 576px) {
   .banner .banner-card h3 {
     font-size: 20px !important;
@@ -422,5 +410,57 @@ footer .menu-footer li a:hover {
     margin-top: 40px;
     padding-left: 20px;
   }
+  .detail .product-detail .product-preview {
+    max-height: 350px;
+  }
+  .detail .product-detail .product-description {
+    margin-bottom: 35px;
+  }
 }
-/*# sourceMappingURL=main.css.map */
+
+.btn-orange {
+  background-color: #E9A823 !important;
+  font-family: 'assistant-bold';
+  color: white !important;
+}
+
+.btn-orange:hover {
+  background-color: #c99836 !important;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.detail {
+  margin-top: 90px;
+}
+
+.detail .product-detail {
+  width: 100%;
+  min-height: 100px;
+  padding: 25px;
+}
+
+.detail .product-detail .product-preview {
+  width: 100%;
+  min-height: 300px;
+  background-color: grey;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.detail .product-detail .product-preview img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.detail .product-detail .product-description .description-header p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #868686;
+}
+
+.detail .informasi-wayang p {
+  text-align: justify;
+}
